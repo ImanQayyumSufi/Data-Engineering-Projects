@@ -21,3 +21,6 @@ The final output of the application/program should be a concise printout of all 
 recommendation as to why they 
 should buy one over the other and the reasons why clearly outlined.
 All of this should be output to the terminal. We do not currently need a fancy UI or anything like that.
+
+A snap of business rules that are made based on projectRequirements.xlsx file:
+
