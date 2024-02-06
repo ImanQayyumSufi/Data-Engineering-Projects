@@ -24,3 +24,4 @@ All of this should be output to the terminal. We do not currently need a fancy U
 
 A snap of business rules that are made based on projectRequirements.xlsx file:
 
+![BusinessRules](C:\Users\user\Desktop\Coursera\Data Engineering\Projects\Self Project\Car Loan Calculator\Data-Engineering-Projects\BusinessRules.png)
