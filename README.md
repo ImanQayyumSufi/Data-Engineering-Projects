@@ -24,4 +24,3 @@ All of this should be output to the terminal. We do not currently need a fancy U
 
 A snap of business rules that are made based on projectRequirements.xlsx file:
 
-![altext](ImanQayyumSufi/Data-Engineering-Projects/BusinessRules.png)
