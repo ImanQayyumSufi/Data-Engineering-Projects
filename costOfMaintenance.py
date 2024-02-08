@@ -1,23 +1,29 @@
 maintenance_costs = {
-    "Axia": 48,
-    "Bezza": 48,
-    "Myvi": 51,
-    "Ativa": 53,
-    "Iriz": 60,
-    "Civic": 56,
-    "City": 71,
-    "HRV": 55,
-    "Vios": 5600,
-    "Alphard": 5700,
-    "Camry": 5700,
-    "Saga": 5800,
+    "Axia": 30,
+    "Bezza": 30,
+    "Myvi": 36,
+    "Ativa": 48,
+    "Iriz": 40,
+    "Civic": 100,
+    "City": 46,
+    "HRV": 41,
+    "Vios": 66,
+    "Yaris": 65,
+    "Vellfire": 78,
+    "Camry": 100,
+    "Saga": 33,
     "Persona": 51,
-    "X50": 6500,
-    "S70": 6600,
-    "Volvo": 8700,
-    "Audi": 8800,
-    "Mercedes-Benz": 11000,
-    "BMW": 13300
+    "X50": 69,
+    "S70": 66,
+    "Volvo": 120,
+    "Audi": 220,
+    "Mercedes-Benz": 223,
+    "BMW": 220,
+    "VW": 66,
+    "Alza": 40,
+    "Mazda3": 0,
 }
 
-#per month
+#RM per month
+
+maintenance_costs ={key.capitalize():value for key, value in maintenance_costs.items()}

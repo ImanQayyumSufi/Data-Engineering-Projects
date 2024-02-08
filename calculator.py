@@ -1,4 +1,5 @@
 # This file contains all the calculations
+from costOfMaintenance import maintenance_costs
 
 def get_monthly_interest_rate():
     principal = float(input("Enter principal amount (RM): "))
@@ -21,9 +22,15 @@ def get_monthly_gas_cost():
 
     return gas_cost
 
-def get_maintenance_cost():
-    road tax:
-    insurance:
-    parking and tolls:
+def get_maintenance_cost(car_brand):
+    road_tax = float(input("Enter road tax amount (RM): "))
+    insurance = float(input("Enter insurance amount (RM): "))
+    parking_tolls = float(input("Enter parking/tolls amount per month (RM): "))
+
+    rt = road_tax/12
+    ins = insurance/12 #divided by 12 to get cost per month
+    total_maintenance = rt + ins + maintenance_costs[car_brand]
+
+    return total_maintenance
 
     
