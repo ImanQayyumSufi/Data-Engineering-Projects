@@ -2,4 +2,5 @@
 
 from calculator import *
 
-print("Welcome to the car loan affordability calculator. \n We only have these brands in our data base:")
+print("Welcome to the car loan affordability calculator.\nWe only have these brands in our data base:")
+print("")
