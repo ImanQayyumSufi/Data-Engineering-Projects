@@ -10,7 +10,7 @@ def get_monthly_interest_rate():
     total_interest = interest_rate/100 * (principal-down_payment) * duration
     monthly_installment = (principal-down_payment+total_interest)/(duration*12)
 
-    return print(monthly_installment)
+    return monthly_installment
 
 def get_monthly_gas_cost():
     gas_price = 2.05 #RM per litre
